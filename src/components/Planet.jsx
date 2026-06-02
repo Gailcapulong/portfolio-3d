@@ -16,17 +16,17 @@ export function Planet(props) {
   useGSAP(() => {
     const tl = gsap.timeline();
     tl.from(shapeContainer.current.position, {
-      y: 5,
+      y: -5,
       duration: 3,
       ease: "circ.out",
     });
     tl.from(
       spheresContainer.current.position,
       {
-        x: 0,
+        x: 5,
         y: Math.PI,
         z: -Math.PI,
-        duration: 10,
+        duration: 7,
         ease: "power1.inOut",
       },
       "-=25%",
@@ -36,8 +36,8 @@ export function Planet(props) {
       {
         x: 0.8,
         y: 0,
-        z: 0,
-        duration: 10,
+        z: 5,
+        duration: 7,
         ease: "power1.inOut",
       },
       "<",

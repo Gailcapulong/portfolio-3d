@@ -69,14 +69,14 @@ const Hero = () => {
 
       <figure
         className="absolute inset-0 -z-10"
-        style={{ width: "100vh", height: "100vh" }}
+        style={{ width: "100vw", height: "100vh" }}
       >
         <Canvas
           shadows
           camera={{ position: [0, 0, 10], fov: 17.5, near: 1, far: 20 }}
         >
           <ambientLight intensity={0.5} />
-          <Float speed={1} rotationIntensity={1} floatIntensity={2}>
+          <Float speed={1}>
             <Planet scale={isMobile ? 0.7 : 1} />
           </Float>
           <Environment resolution={256}>
