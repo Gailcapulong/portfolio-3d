@@ -19,9 +19,6 @@ const App = () => {
       <Works />
       <ContactSummary />
       <section className="h-screen" />
-      <section className="h-screen" />
-      <section className="h-screen" />
-      <section className="h-screen" />
     </ReactLenis>
   );
 };
