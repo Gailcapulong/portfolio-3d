@@ -13,11 +13,11 @@ const ContactSummary = () => {
     "Excellence",
   ];
   const items2 = [
-    "contact us",
-    "contact us",
-    "contact us",
-    "contact us",
-    "contact us",
+    "contact me",
+    "contact me",
+    "contact me",
+    "contact me",
+    "contact me",
   ];
 
   useGSAP(() => {
@@ -49,7 +49,7 @@ const ContactSummary = () => {
       </div>
       <Marquee
         items={items2}
-        reverse={true}
+        reverse={false}
         className="text-black bg-transparent border-y-2"
         iconClassName="stroke-gold stroke-2 text-primary"
         icon="material-symbols-light:square"

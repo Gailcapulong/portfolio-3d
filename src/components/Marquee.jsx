@@ -2,7 +2,9 @@ import { Icon } from "@iconify/react/dist/iconify.js";
 import gsap from "gsap";
 import { Observer } from "gsap/all";
 import { useEffect, useRef } from "react";
+
 gsap.registerPlugin(Observer);
+
 const Marquee = ({
   items,
   className = "text-white bg-black",
@@ -31,15 +33,15 @@ const Marquee = ({
       curIndex = 0,
       pixelsPerSecond = (config.speed || 1) * 100,
       snap =
-        config.snap === false ? (v) => v : gsap.utils.snap(config.snap || 1), // some browsers shift by a pixel to accommodate flex layouts, so for example if width is 20% the first element's width might be 242px, and the next 243px, alternating back and forth. So we snap to 5 percentage points to make things look more natural
+        config.snap === false ? (v) => v : gsap.utils.snap(config.snap || 1),
       totalWidth,
       curX,
       distanceToStart,
       distanceToLoop,
       item,
       i;
+
     gsap.set(items, {
-      // convert "x" to "xPercent" to make things responsive, and populate the widths/xPercents Arrays to make lookups faster.
       xPercent: (i, el) => {
         let w = (widths[i] = parseFloat(gsap.getProperty(el, "width", "px")));
         xPercents[i] = snap(
@@ -49,7 +51,9 @@ const Marquee = ({
         return xPercents[i];
       },
     });
+
     gsap.set(items, { x: 0 });
+
     totalWidth =
       items[length - 1].offsetLeft +
       (xPercents[length - 1] / 100) * widths[length - 1] -
@@ -57,6 +61,7 @@ const Marquee = ({
       items[length - 1].offsetWidth *
         gsap.getProperty(items[length - 1], "scaleX") +
       (parseFloat(config.paddingRight) || 0);
+
     for (i = 0; i < length; i++) {
       item = items[i];
       curX = (xPercents[i] / 100) * widths[i];
@@ -89,14 +94,14 @@ const Marquee = ({
         .add("label" + i, distanceToStart / pixelsPerSecond);
       times[i] = distanceToStart / pixelsPerSecond;
     }
+
     function toIndex(index, vars) {
       vars = vars || {};
       Math.abs(index - curIndex) > length / 2 &&
-        (index += index > curIndex ? -length : length); // always go in the shortest direction
+        (index += index > curIndex ? -length : length);
       let newIndex = gsap.utils.wrap(0, length, index),
         time = times[newIndex];
       if (time > tl.time() !== index > curIndex) {
-        // if we're wrapping the timeline's playhead, make the proper adjustments
         vars.modifiers = { time: gsap.utils.wrap(0, tl.duration()) };
         time += tl.duration() * (index > curIndex ? 1 : -1);
       }
@@ -104,51 +109,59 @@ const Marquee = ({
       vars.overwrite = true;
       return tl.tweenTo(time, vars);
     }
+
     tl.next = (vars) => toIndex(curIndex + 1, vars);
     tl.previous = (vars) => toIndex(curIndex - 1, vars);
     tl.current = () => curIndex;
     tl.toIndex = (index, vars) => toIndex(index, vars);
     tl.times = times;
-    tl.progress(1, true).progress(0, true); // pre-render for performance
+    tl.progress(1, true).progress(0, true);
+
     if (config.reversed) {
       tl.vars.onReverseComplete();
       tl.reverse();
     }
+
     return tl;
   }
 
   useEffect(() => {
-    const tl = horizontalLoop(itemsRef.current, {
+    const validItems = itemsRef.current.filter(Boolean);
+    if (!validItems.length) return;
+
+    const tl = horizontalLoop(validItems, {
       repeat: -1,
       paddingRight: 30,
       reversed: reverse,
     });
 
-    Observer.create({
+    const observer = Observer.create({
+      target: containerRef.current,
       onChangeY(self) {
         let factor = 2.5;
         if ((!reverse && self.deltaY < 0) || (reverse && self.deltaY > 0)) {
           factor *= -1;
         }
         gsap
-          .timeline({
-            defaults: {
-              ease: "none",
-            },
-          })
+          .timeline({ defaults: { ease: "none" } })
           .to(tl, { timeScale: factor * 2.5, duration: 0.2, overwrite: true })
           .to(tl, { timeScale: factor / 2.5, duration: 1 }, "+=0.3");
       },
     });
-    return () => tl.kill();
+
+    return () => {
+      tl.kill();
+      observer.kill();
+    };
   }, [items, reverse]);
+
   return (
     <div
       ref={containerRef}
       className={`overflow-hidden w-full h-20 md:h-[100px] flex items-center marquee-text-responsive font-light uppercase whitespace-nowrap ${className}`}
     >
       <div className="flex">
-        {items.map((text, index) => (
+        {[...items, ...items].map((text, index) => (
           <span
             key={index}
             ref={(el) => (itemsRef.current[index] = el)}
