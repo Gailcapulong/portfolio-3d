@@ -126,7 +126,7 @@ export const projects = [
   },
   {
     id: 4,
-    name: "Electronics & Gadgets Store",
+    name: "Rank Lens",
     description:
       "A multi-category online shop featuring electronics, home appliances, and gaming gear with special offers.",
     href: "",
@@ -141,7 +141,7 @@ export const projects = [
   },
   {
     id: 5,
-    name: "Home Decor Marketplace",
+    name: "The Movie App",
     description:
       "A curated collection of designer home decor items, including furniture and artisan vases.",
     href: "",
