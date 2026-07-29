@@ -84,7 +84,7 @@ export const projects = [
     description:
       "An online store specializing in phone accessories including cases, chargers, cables, and power banks with MagSafe compatibility.",
     href: "https://northwind-store-i387.onrender.com",
-    image: "/assets/projects/mobile-accessories-store.jpg",
+    image: "/assets/projects/NW.png",
     bgImage: "/assets/backgrounds/blanket.jpg",
     frameworks: [
       { id: 1, name: "React" },
@@ -115,7 +115,7 @@ export const projects = [
     description:
       "An e-commerce platform for Apple products and accessories with deals and category filtering.",
     href: "",
-    image: "/assets/projects/apple-tech-store.jpg",
+    image: "/assets/projects/NW.png",
     bgImage: "/assets/backgrounds/map.jpg",
     frameworks: [
       { id: 1, name: "Blazor" },
