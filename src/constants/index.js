@@ -116,7 +116,7 @@ export const projects = [
     description:
       "an ongoing project designed to streamline employee administration by managing employee records, attendance, leave requests, and other essential workforce information through a centralized and user-friendly platform..",
     href: "https://github.com/Gailcapulong/Employee-management-web-app",
-    image: "/assets/projects/NW.png",
+    image: "/assets/projects/EMS.png",
     bgImage: "/assets/backgrounds/map.jpg",
     frameworks: [
       { id: 1, name: "React" },
@@ -127,16 +127,16 @@ export const projects = [
   },
   {
     id: 4,
-    name: "Rank Lens",
+    name: "Rank Lens - ( in development )",
     description:
       "A multi-category online shop featuring electronics, home appliances, and gaming gear with special offers.",
-    href: "",
-    image: "/assets/projects/electronics-store.jpg",
+    href: "https://github.com/Gailcapulong/RankLens-SEO-tracker",
+    image: "/assets/projects/RKL.png",
     bgImage: "/assets/backgrounds/poster.jpg",
     frameworks: [
-      { id: 1, name: "Vue.js" },
+      { id: 1, name: "Next.js" },
       { id: 2, name: "Laravel" },
-      { id: 3, name: "MySQL" },
+      { id: 3, name: "Gemini Ai" },
       { id: 4, name: "SCSS" },
     ],
   },
