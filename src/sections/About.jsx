@@ -55,7 +55,7 @@ const About = () => {
       >
         <img
           ref={imgRef}
-          src="images/man.jpg"
+          src="images/gail.jpg"
           alt="man"
           className="w-md rounded-3xl"
         />
