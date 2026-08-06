@@ -22,7 +22,7 @@ export const servicesData = [
   {
     title: "DevOps & Cloud Solutions",
     description:
-      "Deploying software shouldn't be a gamble. I automate infrastructure, enforce security, and leverage cloud platforms (AWS/Azure) to keep your app running smoothly—24/7, at any scale.",
+      "Deploying software shouldn't be a risk. I automate infrastructure, enforce security, and leverage cloud platforms (AWS/Azure) to keep your app running smoothly—24/7, at any scale.",
     items: [
       {
         title: "CI/CD Pipelines",
@@ -41,7 +41,7 @@ export const servicesData = [
   {
     title: "Security & Optimization",
     description:
-      "Slow or hacked apps destroy trust. I harden security (XSS/SQLI protection, OAuth) and optimize bottlenecks so your app stays fast, safe, and scalable as you grow.",
+      "Slow or hacked apps destroy trust. I strong security (XSS/SQLI protection, OAuth) and optimize bottlenecks so your app stays fast, safe, and scalable as you grow.",
     items: [
       {
         title: "Code Audits",
