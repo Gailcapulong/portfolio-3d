@@ -122,7 +122,7 @@ export const projects = [
       { id: 1, name: "React" },
       { id: 2, name: "Express" },
       { id: 3, name: "MongoDB" },
-      { id: 4, name: "Tailwind CSS" },
+      { id: 4, name: "Shadcn" },
     ],
   },
   {
