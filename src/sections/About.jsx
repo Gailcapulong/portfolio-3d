@@ -11,7 +11,7 @@ const About = () => {
   const aboutText = `Obsessed with building fast, intuitive web experiences—from pixel-perfect React UIs to seamless, responsive interactions. Every line code is crafted with quality and user experience in mind.
   Beyond Coding:
 🎮 Conquering quests on PC and console.
-🎨 Painting landscapes, one brushstroke at a time.
+🎨 Painting landscapes in canvases, one brushstroke at a time.
 🥾 Heading outdoors for fresh air and new adventures.`;
   const imgRef = useRef(null);
 
