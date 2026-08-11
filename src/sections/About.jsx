@@ -12,7 +12,7 @@ const About = () => {
   Beyond Coding:
 🎮 Conquering quests on PC and console.
 🎨 Painting landscapes in canvases, one brushstroke at a time.
-🥾 Heading outdoors for fresh air and new adventures.`;
+🥾 Exploring outdoors for fresh air and new adventures.`;
   const imgRef = useRef(null);
 
   useGSAP(() => {
