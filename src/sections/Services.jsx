@@ -6,7 +6,7 @@ import { useMediaQuery } from "react-responsive";
 import gsap from "gsap";
 
 const Services = () => {
-  const text = `I build secure, high-performance frontend with Smooth UI to 
+  const text = `building a secure, high-performance frontend with Smooth UI to 
   drive growth not headaches.`;
   const serviceRefs = useRef([]);
   const isDesktop = useMediaQuery({ minWidth: "48rem" });
