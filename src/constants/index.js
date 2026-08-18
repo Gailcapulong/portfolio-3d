@@ -159,7 +159,7 @@ export const projects = [
     id: 6,
     name: "Luma Studio",
     description:
-      "an AI-powered Saas image restyling platform that transforms photos into stunning artistic styles with just one upload. Create high-quality, gallery-ready images quickly and effortlessly.",
+      "an AI-powered Saas image redesigning platform that transforms photos into stunning artistic styles with just one upload. Create high-quality, gallery-ready images quickly and effortlessly.",
     href: "https://luma-studio-brown.vercel.app/",
     image: "/assets/projects/LMS.png",
     bgImage: "/assets/backgrounds/curtains.jpg",
