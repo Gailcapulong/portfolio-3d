@@ -136,7 +136,7 @@ export const projects = [
     frameworks: [
       { id: 1, name: "Next.js" },
       { id: 2, name: "Laravel" },
-      { id: 3, name: "Gemini Ai" },
+      { id: 3, name: "Gemini" },
       { id: 4, name: "SCSS" },
     ],
   },
