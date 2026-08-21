@@ -150,9 +150,9 @@ export const projects = [
     bgImage: "/assets/backgrounds/table.jpg",
     frameworks: [
       { id: 1, name: "React" },
-      { id: 2, name: "Shadcn" },
+      { id: 2, name: "Typescript" },
       { id: 3, name: "Appwrite" },
-      { id: 4, name: "Material UI" },
+      { id: 4, name: "Shadcn" },
     ],
   },
   {
