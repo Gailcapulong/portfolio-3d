@@ -98,7 +98,7 @@ export const projects = [
     id: 2,
     name: "iMessage ",
     description:
-      "A responsive web-based messaging platform that enables real-time communication through a clean and user-friendly interface.",
+      "A responsive web-based messaging application that enables real-time communication through a clean and user-friendly interface.",
     href: "https://imessage-wv91.onrender.com",
     image: "/assets/projects/IMssg.png",
     bgImage: "/assets/backgrounds/curtains.jpg",
