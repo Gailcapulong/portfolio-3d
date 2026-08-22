@@ -135,9 +135,9 @@ export const projects = [
     bgImage: "/assets/backgrounds/poster.jpg",
     frameworks: [
       { id: 1, name: "Next.js" },
-      { id: 2, name: "Laravel" },
+      { id: 2, name: "Typescript" },
       { id: 3, name: "Gemini" },
-      { id: 4, name: "SCSS" },
+      { id: 4, name: "Shadcn" },
     ],
   },
   {
