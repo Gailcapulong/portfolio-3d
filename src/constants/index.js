@@ -114,7 +114,7 @@ export const projects = [
     id: 3,
     name: "Employee Management System - (in development)",
     description:
-      "a project designed to streamline employees administration by managing employee records, attendance, leave requests, and other essential workforce information through a centralized and user-friendly platform..",
+      "a project to streamline employees administration by managing employee records, attendance, leave requests, and other essential workforce information through a centralized and user-friendly platform..",
     href: "https://github.com/Gailcapulong/Employee-management-web-app",
     image: "/assets/projects/EMS.png",
     bgImage: "/assets/backgrounds/map.jpg",
