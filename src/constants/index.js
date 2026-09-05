@@ -152,7 +152,7 @@ export const projects = [
       { id: 1, name: "React" },
       { id: 2, name: "Typescript" },
       { id: 3, name: "Appwrite" },
-      { id: 4, name: "Shadcn" },
+      { id: 4, name: "Tailwind" },
     ],
   },
   {
