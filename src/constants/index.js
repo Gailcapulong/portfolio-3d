@@ -120,7 +120,7 @@ export const projects = [
     bgImage: "/assets/backgrounds/map.jpg",
     frameworks: [
       { id: 1, name: "React" },
-      { id: 2, name: "Express" },
+      { id: 2, name: "Node.js" },
       { id: 3, name: "MongoDB" },
       { id: 4, name: "Shadcn" },
     ],
@@ -136,7 +136,7 @@ export const projects = [
     frameworks: [
       { id: 1, name: "Next.js" },
       { id: 2, name: "Typescript" },
-      { id: 3, name: "Gemini" },
+      { id: 3, name: "Tailwindcss" },
       { id: 4, name: "Shadcn" },
     ],
   },
