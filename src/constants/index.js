@@ -114,7 +114,7 @@ export const projects = [
     id: 3,
     name: "Employee Management System - (in development)",
     description:
-      "a project to streamline employees administration by managing employee records, attendance, leave requests, and other essential workforce information through a centralized and user-friendly platform..",
+      "Project to streamline employees administration by managing employee records, attendance, leave requests, and other essential workforce information through a centralized and user-friendly platform..",
     href: "https://github.com/Gailcapulong/Employee-management-web-app",
     image: "/assets/projects/EMS.png",
     bgImage: "/assets/backgrounds/map.jpg",
@@ -159,7 +159,7 @@ export const projects = [
     id: 6,
     name: "Luma Studio",
     description:
-      "an AI-powered Saas image redesign platform photos into stunning artistic styles with just an upload. Create high-quality, gallery-ready images quickly and effortlessly.",
+      "an AI-powered Saas image redesign platform photo into stunning artistic styles with just an upload. Create high-quality, gallery-ready images quickly and effortlessly.",
     href: "https://luma-studio-brown.vercel.app/",
     image: "/assets/projects/LMS.png",
     bgImage: "/assets/backgrounds/curtains.jpg",
