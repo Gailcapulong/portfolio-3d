@@ -68,7 +68,7 @@ export const servicesData = [
       },
       {
         title: "PWAs",
-        description: "(Offline mode, Push Notifications)",
+        description: "(Offline, Push Notifications)",
       },
       {
         title: "E-Commerce",
