@@ -91,7 +91,7 @@ export const projects = [
       { id: 2, name: "Node.js" },
       { id: 3, name: "Shadcn" },
       { id: 4, name: "MongoDB" },
-      { id: 5, name: "Imagekit.io" },
+      { id: 5, name: "Imagekit" },
     ],
   },
   {
