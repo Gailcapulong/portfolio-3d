@@ -106,7 +106,7 @@ export const projects = [
       { id: 1, name: "React" },
       { id: 2, name: "Node.js" },
       { id: 3, name: "MongoDB" },
-      { id: 4, name: "Tailwind CSS" },
+      { id: 4, name: "Tailwindcss" },
       { id: 5, name: "Shadcn" },
     ],
   },
@@ -128,7 +128,7 @@ export const projects = [
   },
   {
     id: 4,
-    name: "Rank Lens - ( in development )",
+    name: "Rank Lens - ( development )",
     description:
       "A multi-categorize featuring electronics, home appliances, gaming gears.",
     href: "https://github.com/Gailcapulong/RankLens-SEO-tracker",
