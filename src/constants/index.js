@@ -130,7 +130,7 @@ export const projects = [
     id: 4,
     name: "Rank Lens - ( development )",
     description:
-      "A multi-categorize featuring electronics, home appliances, gaming gears.",
+      "A multi-categorize featuring electronics, home appliances, gaming gear.",
     href: "https://github.com/Gailcapulong/RankLens-SEO-tracker",
     image: "/assets/projects/RKL.png",
     bgImage: "/assets/backgrounds/poster.jpg",
