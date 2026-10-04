@@ -144,8 +144,7 @@ export const projects = [
   {
     id: 5,
     name: "The Movie App",
-    description:
-      "A collection of designer home decoration item, furnitures and vase.",
+    description: "A collection of designer home decoration item, furnitures.",
     href: "https://movie-app-silk-iota.vercel.app/",
     image: "/assets/projects/theMvapp.png",
     bgImage: "/assets/backgrounds/table.jpg",
