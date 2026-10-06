@@ -114,7 +114,7 @@ export const projects = [
     id: 3,
     name: "Employee Management System - (in development)",
     description:
-      "Project to streamline employees administration by managing employee records, attendance, leave requests, and other  workforce information through a centralized and user-friendly platform..",
+      "Project to streamline employees administration by managing employee record, attendance, leave requests, and other  workforce information through a centralized and user-friendly platform..",
     href: "https://github.com/Gailcapulong/Employee-management-web-app",
     image: "/assets/projects/EMS.png",
     bgImage: "/assets/backgrounds/map.jpg",
@@ -144,7 +144,7 @@ export const projects = [
   {
     id: 5,
     name: "The Movie App",
-    description: "A collection of designer home decoration item, furnitures.",
+    description: "A collection of designer home decorations item, furnitures.",
     href: "https://movie-app-silk-iota.vercel.app/",
     image: "/assets/projects/theMvapp.png",
     bgImage: "/assets/backgrounds/table.jpg",
