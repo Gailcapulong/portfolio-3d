@@ -22,7 +22,7 @@ export const servicesData = [
   {
     title: "DevOps & Cloud Solutions",
     description:
-      "Deploying software shouldn't be a risk. I automate infrastructure, enforce security, and leverage cloud platforms (AWS/Azure) to keep your app running smoothly—24/7, at any scale.",
+      "Deploying software shouldn't be in risk. I automate infrastructure, enforce security, and leverage cloud platforms (AWS/Azure) to keep your app running smoothly—24/7, at any scale.",
     items: [
       {
         title: "CI/CD Pipelines",
