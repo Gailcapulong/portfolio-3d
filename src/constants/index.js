@@ -48,7 +48,7 @@ export const servicesData = [
         description: "(Refactoring, Tech Debt Cleanup)",
       },
       {
-        title: "Pen Testing",
+        title: "Pen Test",
         description: "(Vulnerability Assessments)",
       },
       {
@@ -82,7 +82,7 @@ export const projects = [
     id: 1,
     name: "Northwind Store E-commerce",
     description:
-      "A multi-categorized online shopping featuring electronic, home appliances, gaming peripherals with special offers",
+      "A multi-categorized online shopping features electronic, home appliances, gaming peripherals with special offers",
     href: "https://northwind-store-i387.onrender.com",
     image: "/assets/projects/NW.png",
     bgImage: "/assets/backgrounds/blanket.jpg",
