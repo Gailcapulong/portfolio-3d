@@ -26,7 +26,7 @@ export const servicesData = [
     items: [
       {
         title: "CI/CD Pipelines",
-        description: "(GitHub Actions, Docker, Kubernetes)",
+        description: "(GitHub Action, Docker, Kubernetes)",
       },
       {
         title: "Server Management ",
