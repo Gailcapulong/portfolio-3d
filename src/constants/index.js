@@ -34,7 +34,7 @@ export const servicesData = [
       },
       {
         title: "Performance Tuning",
-        description: "(Caching, Compression, Lighthouse 90+ Scores)",
+        description: "(Cache, Compression, Lighthouse 90+ Scores)",
       },
     ],
   },
