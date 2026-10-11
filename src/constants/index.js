@@ -58,7 +58,7 @@ export const servicesData = [
     ],
   },
   {
-    title: "Web Apps",
+    title: "Web Application",
     description:
       "A interface that sink even the best ideas. Craft responsively, pixel perfect web and mobile apps (React Native/Flutter) that users love—bridging design and functionality seamlessly.",
     items: [
