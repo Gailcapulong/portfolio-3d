@@ -128,7 +128,7 @@ export const projects = [
   },
   {
     id: 4,
-    name: "Rank Lens - ( development )",
+    name: "Rank Lens SEO Tracker",
     description:
       "A multi-categorize featuring electronics, appliances, gaming gears.",
     href: "https://github.com/Gailcapulong/RankLens-SEO-tracker",
