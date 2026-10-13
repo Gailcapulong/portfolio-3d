@@ -53,7 +53,7 @@ export const servicesData = [
       },
       {
         title: "SEO Tech Stack",
-        description: "(SSR, Metadata, Structured Data)",
+        description: "(Metadata, Structured Data)",
       },
     ],
   },
@@ -72,7 +72,7 @@ export const servicesData = [
       },
       {
         title: "E-Commerce",
-        description: "(Checkout flows, Payment Gateways, Inventory APIs)",
+        description: "(Checkout flow, Payment Gateways, Inventory APIs)",
       },
     ],
   },
