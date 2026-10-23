@@ -114,7 +114,7 @@ export const projects = [
     id: 3,
     name: "Employee Management System - (in development)",
     description:
-      " A web Project to streamline employees administration by managing employee record, attendances, leave request, and other workforce information through a centralize and user-friendly platform..",
+      " A web Project to streamline employees administration by manage employee record, attendances, leave request, and other workforce information through a centralize and user-friendly platform..",
     href: "https://github.com/Gailcapulong/Employee-management-web-app",
     image: "/assets/projects/EMS.png",
     bgImage: "/assets/backgrounds/map.jpg",
@@ -130,7 +130,7 @@ export const projects = [
     id: 4,
     name: "Rank Lens SEO Tracker",
     description:
-      "A multi-categorize featuring electronics, appliances, gaming gears.",
+      "A multi-categorize featured electronics, appliances, gaming gears.",
     href: "https://github.com/Gailcapulong/RankLens-SEO-tracker",
     image: "/assets/projects/RKL.png",
     bgImage: "/assets/backgrounds/poster.jpg",
