@@ -64,7 +64,7 @@ export const servicesData = [
     items: [
       {
         title: "Cross-Platform Apps",
-        description: "(Single codebase for iOS/Android/Web)",
+        description: "(Single codebase iOS/Android/Web)",
       },
       {
         title: "PWAs",
@@ -82,7 +82,7 @@ export const projects = [
     id: 1,
     name: "Northwind Store E-commerce",
     description:
-      "A multi-categorized online shopping features electronic, home appliances, gaming peripherals with special offers",
+      "A multi-categorized online shopping features electronics, home appliances, gaming peripherals with special offers",
     href: "https://northwind-store-i387.onrender.com",
     image: "/assets/projects/NW.png",
     bgImage: "/assets/backgrounds/blanket.jpg",
