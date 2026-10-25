@@ -72,7 +72,7 @@ export const servicesData = [
       },
       {
         title: "E-Commerce",
-        description: "(Checkout flow, Payment Gateways, Inventory APIs)",
+        description: "(Checkout flows, Payment Gateways, Inventory APIs)",
       },
     ],
   },
