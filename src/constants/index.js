@@ -41,7 +41,7 @@ export const servicesData = [
   {
     title: "Security & Optimizations",
     description:
-      "Slow or hack destroy trust. I strong urity (XSS/SQLI protection, Authentication) optimizing bottlenecks so your app stays fast, safe, and scalable as you grow.",
+      "Slow or hack destroy trust. I strong urity (XSS/SQLI protection, Authenticate) optimizing bottlenecks so your app stays fast, safe, and scalable as you grow.",
     items: [
       {
         title: "Code Audits",
@@ -53,7 +53,7 @@ export const servicesData = [
       },
       {
         title: "SEO Tech Stack",
-        description: "(Metadata, Structured Data)",
+        description: "(Metadata, Structured Datas, Sitemap, Robots.txt)",
       },
     ],
   },
