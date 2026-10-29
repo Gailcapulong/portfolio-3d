@@ -80,7 +80,7 @@ export const servicesData = [
 export const projects = [
   {
     id: 1,
-    name: "Northwind Store E-commerce",
+    name: "Northwind E-commerce",
     description:
       "A multi-categorized online shopping features electronics, home appliances, gaming peripherals with special offers",
     href: "https://northwind-store-i387.onrender.com",
