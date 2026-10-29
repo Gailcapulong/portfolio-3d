@@ -87,7 +87,7 @@ export const projects = [
     image: "/assets/projects/NW.png",
     bgImage: "/assets/backgrounds/blanket.jpg",
     frameworks: [
-      { id: 1, name: "Next.js" },
+      { id: 1, name: "Next" },
       { id: 2, name: "Node.js" },
       { id: 3, name: "Shadcn" },
       { id: 4, name: "MongoDB" },
