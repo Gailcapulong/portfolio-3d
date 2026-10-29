@@ -7,7 +7,7 @@ import gsap from "gsap";
 const About = () => {
   const text = `Passionate about creating responsive, 
   user-friendly interfaces with clean, 
-  maintainable code and modern frontend technologies. `;
+  maintainable code and modern front technologies. `;
   const aboutText = `Obsessed building fast, intuitive web app experiences—from pixel-perfect React UIs to seamless, responsive interactions. Every line code is crafted with quality and user experience in mind.
   Beyond Coding:
 🎮 Conquering quests on PC and console.
