@@ -82,7 +82,7 @@ export const projects = [
     id: 1,
     name: "Northwind E-commerce",
     description:
-      "A multi-categorized online shopping features electronics, home appliances, gaming peripherals with special offers",
+      "A multi-categorized online shopping features electronics, home appliance, gaming peripherals with special offers",
     href: "https://northwind-store-i387.onrender.com",
     image: "/assets/projects/NW.png",
     bgImage: "/assets/backgrounds/blanket.jpg",
